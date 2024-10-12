@@ -4,6 +4,7 @@ import argparse
 import asyncio
 import hashlib
 import math
+import json
 import os
 import re
 import shutil
@@ -216,6 +217,7 @@ class BBBDL:
             'captions.json',
             'deskshare.xml',
             'events.xml',
+            'tldraw.json'
             'presentation_text.json',
             'slides_new.xml',
             'notes.html',
